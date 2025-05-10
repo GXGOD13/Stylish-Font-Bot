@@ -1,15 +1,15 @@
 import os
 from typing import List
 
-API_ID = os.environ.get("API_ID", "")
-API_HASH = os.environ.get("API_HASH", "")
+API_ID = os.environ.get("API_ID", "21769517")
+API_HASH = os.environ.get("API_HASH", "a18bca05e643355610f88e15425287a7")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-ADMIN = int(os.environ.get("ADMIN", ""))
+ADMIN = int(os.environ.get("ADMIN", "7562079827"))
 
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002580205471"))
 
 DB_URI = os.environ.get("DB_URI", "")
-DB_NAME = os.environ.get("DB_NAME", "")
+DB_NAME = os.environ.get("DB_NAME", "gxmon239")
 
 IS_FSUB = os.environ.get("IS_FSUB", "False").lower() == "true"  # Set "True" For Enable Force Subscribe
-AUTH_CHANNELS = list(map(int, os.environ.get("AUTH_CHANNEL", "-100xxxxxxxxx -100xxxxxxx").split()))  # Add Multiple channel id's
+AUTH_CHANNELS = list(map(int, os.environ.get("AUTH_CHANNEL", "-1002553401644").split()))  # Add Multiple channel id's
